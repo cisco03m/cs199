@@ -3,7 +3,6 @@
 node_modules
 /upgrade
 /cache
-/uploads
 /advanced-cache.php
 /debug.log
 /languages
