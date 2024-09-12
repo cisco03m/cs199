@@ -1,13 +1,13 @@
-.DS_Store
-.sass-cache
-node_modules
-/upgrade
-/cache
-/advanced-cache.php
-/debug.log
-/languages
-/db.php
-/wflogs
+*.DS_Store
+*.sass-cache
+wp-content/node_modules
+wp-content/upgrade
+wp-content/cache
+wp-content/advanced-cache.php
+wp-content/debug.log
+wp-content/languages
+wp-content/db.php
+wp-content/wflogs
 
 # Ignore anything within themes, except the theme we are building.
 #/themes/*
