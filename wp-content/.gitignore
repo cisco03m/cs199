@@ -1,0 +1,22 @@
+.DS_Store
+.sass-cache
+node_modules
+/upgrade
+/cache
+/advanced-cache.php
+/debug.log
+/languages
+/db.php
+/wflogs
+
+# Ignore anything within themes, except the theme we are building.
+#/themes/*
+#!/myproject-theme
+
+# Ignore anything within plugins. Exceptions to this to follow.
+#/plugins/*
+# Track any plugins prefixed with myproject-
+#!/plugins/myproject-*
+# Track any other plugins we control
+#!/plugins/some-custom-plugin
+#!/plugins/some-modified-third-party-plugin
